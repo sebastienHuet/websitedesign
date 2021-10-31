@@ -39,6 +39,13 @@ nav a{
     height: 100vh;
     width: 100%;
     overflow: scroll;
+   
+    
+}
+
+.center-grid{
+    display: flex;
+    justify-content: center;
 }
 
 .grid{
@@ -50,7 +57,7 @@ nav a{
 
 .box-color-a{
     background-color: #264653;
-    grid-area: 2/14/6/20;
+    grid-area: 1/14/6/20;
 }
 
 .box-color-b{
@@ -68,11 +75,11 @@ nav a{
 }
 .box-color-e{
     background-color: #E76F51;
-    grid-area: 14/20/18/26;
+    grid-area: 14/20/19/26;
 }
 
 .hex-color-a{
-    grid-area: 4/13/4/15;
+    grid-area: 3/13/3/15;
 }
 
 .hex-color-b{
@@ -118,6 +125,7 @@ h3{
 .h1-styling{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .space-bottom{
