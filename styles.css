@@ -69,6 +69,46 @@ nav a{
     grid-area: 14/20/18/26;
 }
 
-.font-section{
-    display: block
+.hex-color-a{
+    grid-area: 4/13/4/15;
+}
+
+.hex-color-b{
+    grid-area: 7/16/7/18;
+}
+
+.hex-color-c{
+    grid-area: 10/13/10/15;
+}
+
+.hex-color-d{
+    grid-area: 12/22/12/24;
+}
+
+.hex-color-e{
+    grid-area: 15/19/15/21;
+}
+
+.heading{
+  margin: 0 0 20px 20px;
+  padding: 15px;
+  background-color: #2A9D8F;
+}
+
+
+.position-styling{
+    line-height: 1.5;
+    margin: 0 0 20px 40px;
+}
+
+.thin{
+    font-weight: 100;
+}
+
+.light{
+    font-weight: 300;
+}
+
+.regular{
+    font-weight: 400;
 }
