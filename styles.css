@@ -7,7 +7,9 @@
 body{
     font-family: Roboto;
     font-weight: 300;
+    font-size: 18px;
 }
+
 
 nav{
     width:250px;
@@ -16,7 +18,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    text-align: center;
 }
 
 
@@ -93,12 +95,33 @@ nav a{
   margin: 0 0 20px 20px;
   padding: 15px;
   background-color: #2A9D8F;
+  
+}
+
+h1{
+    font-size: 3em;
+    font-weight:900;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.5em;
 }
 
 
 .position-styling{
     line-height: 1.5;
     margin: 0 0 20px 40px;
+}
+
+.h1-styling{
+    display: flex;
+    justify-content: space-between;
+}
+
+.space-bottom{
+    margin-bottom: 1em;
 }
 
 .thin{
